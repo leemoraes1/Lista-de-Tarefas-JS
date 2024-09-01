@@ -1,0 +1,48 @@
+body{
+    user-select: none;/*seleção de usuario desligada(evita o usuario copiar o texto*/
+    text-align: center;/*alinha texto no cenrro*/
+    margin-top: 50px;/*margem no topo*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: paleturquoise;
+}
+/*para chamar id sempre colocar # antes*/
+#geral{
+width: 500px;/*largura da caixa*/
+background-color: palevioletred;
+padding: 20px;/*distancia dos elementos da borda(margem interna)*/
+margin: auto;/*margem automatica faz o elemebto ficar centralizado*/
+text-align: center;/*alinhamento*/
+border-radius: 30px;/*arredonda as bordas*/
+min-height: 200px;/*altura minima (garantir que a caixa nao fique pequena)*/
+}
+#input-tarefa{
+width: 65%;/*largura da caixa de texto*/
+height: 30px;
+border: none;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+color: black;
+}
+#botão{
+    background-color: white;
+    border: none;
+    width: 15%;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#botão:hover{/*ao passar o mouse*/
+    background-color: pink;
+}
+#botão:active{/*estilo quando clicar*/
+    background-color: palevioletred;
+    border: white solid 1px;
+}
+#tarefas{
+    width: 90%;
+    margin: auto;
+    font-size: 16px;/*tamanho da fonte*/
+    text-align: left;/*para os textos ficarem na esquerda*/
+    cursor: pointer;
+}
